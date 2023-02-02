@@ -1,0 +1,43 @@
+<form action="/users/create" method="post">
+
+<div class="hero min-h-screen bg-base-200">
+    
+    <div class="sign_in_form hero-content flex-col lg:flex-row-reverse">
+      <div class="text-center lg:text-left">
+        <h1 class="text-5xl font-bold">Sign Up</h1>
+      </div>
+      <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+        <div class="card-body">
+            <div class="form-control">
+                <input type="text" name="name" placeholder="Enter Name" class="input input-bordered" required> 
+            </div>
+          <div class="form-control">
+            <input type="email" name="email" placeholder="Enter Email" class="input input-bordered" required>
+          </div>
+          <div class="form-control">
+            
+            <input type="number" name="mobile" placeholder="Enter Your Phone" class="input input-bordered" required>
+          </div>
+          <div class="form-control">
+            
+            <input type="password" name="password" placeholder="Enter Password" class="input input-bordered" required>
+          </div>
+          
+          <div class="form-control">
+           
+            <input type="password" name="confirm_password" placeholder="Confirm Password" class="input input-bordered" required>
+           
+          </div>
+          <div class="form-control mt-6">
+            <input class="btn btn-primary"  type="submit" value="Sign Up">
+
+          </div>
+          <div >
+            <a class=" flex justify-center p-4" href="/users/auth/google">  <img src="https://cdn.cdnlogo.com/logos/g/35/google-icon.svg" alt="GoogleLogo" height="20px" width="20px"> Google Sign In/Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</form>

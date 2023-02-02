@@ -1,0 +1,15 @@
+body{
+ background-color: lightgoldenrodyellow;   
+ /* text-align: center; */
+ #layout-main{
+    height: 100%;
+ }
+ .sign_in_form{
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+ }
+}

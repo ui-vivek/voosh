@@ -1,0 +1,17 @@
+body {
+  background-color: lightgoldenrodyellow;
+  /* text-align: center; */
+}
+
+body #layout-main {
+  height: 100%;
+}
+
+body .sign_in_form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
